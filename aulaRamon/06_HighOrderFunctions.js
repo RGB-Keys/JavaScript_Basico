@@ -16,8 +16,8 @@ const leiaLogin = () => {
     return "Leia logada com sucesso!"
 }
 
-lukeLogin();
-leiaLogin();
+console.log(lukeLogin());
+console.log(leiaLogin());
 
 // Percebe-se que ambas as funções executam, por assim dizer, a mesma coisa.
 // Portanto, podemos o conceito chamado DRY (Don't Repeat Yourself), para evirtarmos redundância.
@@ -31,4 +31,5 @@ const usuarioLogin = (pessoa) => {
     return `${pessoa} logou com sucesso no sistema!`
 }
 
-usuarioLogin("Rodolfo");
+console.log("");
+console.log(usuarioLogin("Rodolfo"));
