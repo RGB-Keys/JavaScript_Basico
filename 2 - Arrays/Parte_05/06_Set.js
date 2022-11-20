@@ -1,4 +1,4 @@
-// Uso do método set:
+// Uso do objeto set:
 
 // O Set é capaz de percorrer a array e armazenar os elementos
 //sem que haja repetição.
